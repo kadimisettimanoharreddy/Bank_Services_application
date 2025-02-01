@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Account Created Successfully</title>
+<style>
+body {
+	font-family: Arial, sans-serif;
+	background-color: #e8f5e9;
+	text-align: center;
+	animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translateY(-10px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+h1 {
+	color: #2e7d32;
+	margin-top: 50px;
+	font-size: 36px;
+	animation: scaleUp 1s ease-in-out;
+}
+
+@keyframes scaleUp {
+	from {
+		transform: scale(0.8);
+		opacity: 0;
+	}
+	to {
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+
+p {
+	font-size: 20px;
+	color: #388e3c;
+	margin-top: 20px;
+	animation: slideIn 1s ease-in-out;
+}
+
+@keyframes slideIn {
+	from {
+		transform: translateY(10px);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+.button-container {
+	margin-top: 30px;
+}
+
+.btn {
+	padding: 12px 25px;
+	font-size: 18px;
+	color: white;
+	background-color: #2e7d32;
+	border: none;
+	border-radius: 8px;
+	text-decoration: none;
+	cursor: pointer;
+	transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+	background-color: #1b5e20;
+	transform: scale(1.05);
+}
+
+footer {
+	margin-top: 50px;
+	color: #555;
+}
+</style>
+</head>
+<body>
+
+	<h1>Account Created Successfully!</h1>
+	<p>Thank you for creating an account with us. Welcome to Global Trust Bank.</p>
+
+	
+	<div class="button-container">
+		<a href="form1.html" class="btn">Back to Home</a>
+	</div>
+
+	<footer>
+		<p>Global Trust Bank | Address: 123 Financial St., New York, NY 10001</p>
+		<p>Contact: support@globalbankservices.com | Phone: +1-800-123-4567</p>
+	</footer>
+
+</body>
+</html>
+
